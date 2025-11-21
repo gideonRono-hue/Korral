@@ -1,0 +1,145 @@
+/******** mincss **********/
+.hero {
+    background: rgb(13, 13, 13, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 1em;
+    text-align: center;
+	/* Add the following properties to the selector to which the effect has to be applied */
+
+	/* Chrome, Safari */
+	-webkit-box-shadow: 5px 5px 15px #000000;
+	/* Standard syntax */
+	box-shadow: 5px 5px 15px black;
+
+}
+.pagename current title{
+  color: red;
+  padding: auto;
+}
+.nav{
+  width: flex;
+}
+.hero h1 {
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    color: red;
+}
+
+/****** Custom toggle Switch**********/
+/* https://codepen.io/alvarotrigo/pen/abVPyaJ */
+/*********************/
+.toggle-div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns in the grid */
+  gap: 2px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+
+.label{
+    font-size: 1.5em;
+	color: white;
+    font-weight: bolder;
+    margin-right: 0.5em;
+    /* color: blue */
+}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: 14rem auto;
+}
+aside {
+  margin-top: 1.4rem;
+  height: 100vh;
+  background: black;
+  border-radius: var(--border-radius-1);
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.values {
+  text-align: center;
+  resize: none;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 1.4rem;
+  background: var(--color-white);
+  padding: 0.4rem;
+  border: 1px solid red; */
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Styles for the toggle switch */
+input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 150px;
+    height: 60px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 70px;
+    height: 50px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+    background: #d90452;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 130px;
+  }
+   .title{
+	font-family:  'Eras Demi ITC', 'Eras Bold ITC';
+	color: #d90452;
+  }
