@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Korrel
 
 ## Project Description
@@ -29,3 +30,7 @@ Korrel is a project designed to manage and organize various functionalities, inc
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+=======
+# Korral
+Simple local automation system with a clean  simple web interface and time based rules, base around raspberry pi pico W
+>>>>>>> f0af4259e0d0180623bd07f9297588b5eb7bb082
